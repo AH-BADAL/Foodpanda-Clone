@@ -320,6 +320,7 @@
     .content-two p{
       width:1000px;
       font-size: 45px;
+      font-family: tahoma;
     }
 
     .content-two button{
@@ -351,6 +352,7 @@
     .content-three p{
        width:1000px;
       font-size: 45px;
+      font-family: tahoma;
     }
 
     .content-four{
