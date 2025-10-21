@@ -1,6 +1,7 @@
 *{
   margin:0%;
 }
+
 .main-nav{
   display:flex;
   align-items: center;
@@ -274,136 +275,103 @@
 }
 
 
+/* 📱 RESPONSIVE DESIGN STARTS HERE */
 
-
-
-
-/* media only mobile responsive */
-
-@media screen and (max-width:600px){
-   .container-one,.container-three,.container-four,.container-five,.container-six{
-    flex-direction: column;
-   }
-
-   .container-three,.container-four{
-    width: 100%;
-   }
-
-   .content {
-    margin-bottom: 10px;
-   }
-   .content img{
-     width: 100%;
-     height: auto;
-     margin-left: 0; 
-    }
-    .content-two,.content-three,.content-four,.content-six,.contain-seven,.contain-eight{
-      height:auto;
-      width:100%;
-      margin:0;
-      padding: 10px;
-    }
-    .content-two h1{
-      font-size:80px;
-      font-family: tahoma;
-    }
-
-    .content-two p{
-      width:1000px;
-      font-size: 45px;
-      font-family: tahoma;
-    }
-
-    .content-two button{
-      width:220px;
-      padding: 20px;
-      font-size: 20px;
-    }
-   
-    
-    .content-three h3{
-      font-size:85px;
-      font-family: tahoma;
-      margin-top: 10px;
-    }
-    .content-three img{
-     width: 100%;
-     height: auto;
-     margin-left: 0; 
-    }
-
-    .content-three p{
-
-    }
-
-    .content-four img{
-     width: 100%;
-     height: auto;
-     margin-left: 0; 
-    }
-    .content-five img{
-     width: 100%;
-     height: auto;
-     margin-left: 0; 
-    }
-
-    .content-six h3{
-      font-size:85px;
-      font-family: tahoma;
-      margin-top: 10px;
-      padding:1px;
-
-    }
-    .content-six p{
-      width:1000px;
-      font-size:50px;
-      font-family: tahoma;
-    }
-    .content-six button{
-      width:220px;
-      padding: 20px;
-      font-size: 20px;
-
-    }
-   
-
-    .contain-seven h1{
-      font-size:85px;
-      font-family: tahoma;
-      margin-top: 10px;
-
-    }
-    .contain-seven p{
-      font-size:50px;
-      font-family: tahoma;
-    }
-
-    .contain-seven button{
-      width:220px;
-      padding: 20px;
-      font-size: 20px;
-    }
-  
-    .contain-eight img{
-    width:100%;
-     height: auto;
-     margin-left: 0; 
-    }
-
-    
-   .content-three{
-    width: 50%;
-   }
-   .content-four{
-    width: 50%;
-   }
-
+/* Tablets (width <= 1024px) */
+@media (max-width: 1024px) {
+  .main-nav {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
+  .main-nav img {
+    padding-left: 0;
+    margin-right: 0;
+  }
+
+  .main-nav a {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .main-nav button, 
+  .main-nav input {
+    margin: 8px 5px;
+  }
+
+  .food {
+    font-size: 60px;
+    padding: 80px 100px;
+  }
+
+  .next {
+    padding: 60px;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+
+  .container-three,
+  .container-four,
+  .container-five,
+  .container-six {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .content img,
+  .content-four img,
+  .content-five img,
+  .contain-eight img {
+    padding-left: 0;
+    margin: 0;
+    width: 90%;
+    height: auto;
+  }
+
+  .content-two p,
+  .content-three p,
+  .content-six p,
+  .contain-seven p {
+    width: 100%;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    height: auto;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .contain-nine img {
+    margin: 0 auto;
+  }
+
+  .box-1 p,
+  .box-2 p,
+  .contain-ten p {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .box-1 ol,
+  .box-2 ol {
+    margin: 0;
+  }
+
+  .end-one,
+  .end-two {
+    margin: 20px auto;
+  }
+}
+/* 
+Mobile (width <= 768px)
+@media (max-width: 768px) {
+  .main-nav {
+    flex-direction:
+  }
+} */
 
 
 
-
-
-
-  
