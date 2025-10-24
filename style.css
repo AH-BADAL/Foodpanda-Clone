@@ -10,16 +10,18 @@
 
 .main-nav button{
   padding: 14px;
-  border-radius:50px;
+  border-radius:5px;
   color:white;
-  font-family:tahoma;
   background: #ff2b85;
   font-size: 15px;
   border: none;
   margin-left: 8px;
+  font-family: cascadia-code;
+  letter-spacing:0.5px;
 }
 .main-nav button:hover{
   background: #e5699c;
+  transition: 0.5s;
 }
 
 .main-nav input{
